@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B422BCAA18C93EC600A2499D /* uploadToHockey.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = uploadToHockey.sh; sourceTree = "<group>"; };
 		B428186D18C5386E00EE6074 /* TFTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B428187018C5386E00EE6074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B428187218C5386E00EE6074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +89,7 @@
 			children = (
 				B4E5B8BB18C82BC600CF1659 /* makeNewRelease.sh */,
 				B4E5B8B918C824E500CF1659 /* uploadToTestFlight.sh */,
+				B422BCAA18C93EC600A2499D /* uploadToHockey.sh */,
 				B428187618C5386E00EE6074 /* TFTest */,
 				B428189818C5386F00EE6074 /* TFTestTests */,
 				B428186F18C5386E00EE6074 /* Frameworks */,
@@ -423,6 +425,7 @@
 					"$(inherited)",
 					"TF_TOKEN=$(TF_TEAM_TOKEN)",
 				);
+				HOCKEY_APP_ID = abcdefg1234567;
 				INFOPLIST_FILE = "TFTest/TFTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "230ABCC0-339F-4473-95FA-03DED6886301";
@@ -440,6 +443,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFTest/TFTest-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TF_TOKEN=$(TF_TEAM_TOKEN)";
+				HOCKEY_APP_ID = abcdefg1234567;
 				INFOPLIST_FILE = "TFTest/TFTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "230ABCC0-339F-4473-95FA-03DED6886301";

@@ -1,3 +1,34 @@
+## Build 1.0.18 :: 2014/03/06 12:07 :: TFTest ####################
+
+* This is a test
+
+## Build 1.0.17 :: 2014/03/06 12:06 :: TFTest ####################
+
+* aaaaaa
+
+## Build 1.0.16 :: 2014/03/06 12:05 :: TFTest ####################
+
+* * This is line 1
+* This is line 2
+* Line 3 goes __here__
+
+## Build 1.0.15 :: 2014/03/06 12:04 :: TFTest ####################
+
+* werwerwer
+
+## Build 1.0.14 :: 2014/03/06 12:01 :: TFTest ####################
+
+* * This is line 1
+* This is line 2
+* Line 3 goes __here__
+
+
+## Build 1.0.13 :: 2014/03/06 11:57 :: TFTest ####################
+
+* This is line 1
+* This is line 2
+* Line 3 goes __here__
+
 ## Build 1.0.12 :: 2014/03/06 08:43 :: TFTest ####################
 
 * Added a text view
