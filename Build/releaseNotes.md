@@ -1,2 +1,3 @@
-* Getting TF_API_TOKEN from env
+* Added a text view
+* Showing how to incorporate env vars to preprocessor directives to nsstrings
 

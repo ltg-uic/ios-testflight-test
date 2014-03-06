@@ -1,3 +1,8 @@
+## Build 1.0.12 :: 2014/03/06 08:43 :: TFTest ####################
+
+* Added a text view
+* Showing how to incorporate env vars to preprocessor directives to nsstrings
+
 ## Build 1.0.11 :: 2014/03/06 08:11 :: TFTest ####################
 
 * Getting TF_API_TOKEN from env
